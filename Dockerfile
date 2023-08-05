@@ -14,5 +14,5 @@ RUN pip install --upgrade pip \
     && mv green_tripdata_2023-02.parquet data/green_tripdata_2023-02.parquet
 
 
-EXPOSE 8889
+EXPOSE 8889 5000
 ENTRYPOINT /bin/bash
